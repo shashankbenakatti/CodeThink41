@@ -1,7 +1,7 @@
 # CodeThink41
 Repository for the Assesment code during Interview
 
-###### Explanation to ORMs by Shashank  
+###### Explanation to Tech used by Shashank( Not AI)  
 ORM is used here to map the queries from command execution. So an example, a POST command along with insert logic triggers a INSERT statement command in my SQLite database. Translating execution logic and commands to queries is what is done by ORM. Database used here is a SQLite database which is a relational file based database. 
 Python FastAPI is used as a middleware layer to expose API endpoints
 
