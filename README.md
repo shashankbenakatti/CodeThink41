@@ -1,36 +1,11 @@
 # CodeThink41
 Repository for the Assesment code during Interview
 
-#### Implementation Details
-
-
-#### Features 
-- User Management: Support for multiple users with unique identifiers
-- CRUD Operations: Create, Read, Update, and Delete code snippets
-- Language Filtering: Filter snippets by programming language
-- Automatic Timestamps: Track creation and modification dates
-- Unique Naming: Ensure snippet names are unique per user
-- RESTful API: Clean, well-documented API endpoints
-- Interactive Documentation: Auto-generated Swagger/OpenAPI docs
-- Simple Web Interface: HTML frontend for easy testing and demonstration
-
-
-#### Sections of the Code
-main.py 
-
-
-
-
-
-
-
-
-
 # 📝 Code Snippets Manager API
 
 A robust backend service that allows authenticated users to save, retrieve, and manage their personal code snippets. Built with FastAPI and SQLite, this application provides a complete REST API for code snippet management with a simple web interface for demonstration.
 
-## 🌟 Features
+## Features
 
 - **User Management**: Support for multiple users with unique identifiers
 - **CRUD Operations**: Create, Read, Update, and Delete code snippets
@@ -40,8 +15,6 @@ A robust backend service that allows authenticated users to save, retrieve, and 
 - **RESTful API**: Clean, well-documented API endpoints
 - **Interactive Documentation**: Auto-generated Swagger/OpenAPI docs
 - **Simple Web Interface**: HTML frontend for easy testing and demonstration
-
-## 🚀 Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -370,9 +343,6 @@ class SnippetSummary:
     "detail": "Error message description"
 }
 ```
-
-### Security Considerations
-
 #### Current Implementation
 - **Input Validation**: Pydantic models validate all inputs
 - **SQL Injection Prevention**: SQLAlchemy ORM prevents SQL injection
@@ -439,11 +409,4 @@ Run the demo with: `python demo.py`
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📞 Support
-
-For support, please open an issue in the GitHub repository or contact the development team.
+- Made by Shashank Benakatti
