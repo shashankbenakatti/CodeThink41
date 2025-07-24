@@ -1,11 +1,11 @@
-# CodeThink41
-Repository for the Assesment code during Interview
+# 📝 Code Snippets Manager 
+###### for Assesment Code Think41
 
 ###### Explanation to Tech used by Shashank( Not AI)  
 ORM is used here to map the queries from command execution. So an example, a POST command along with insert logic triggers a INSERT statement command in my SQLite database. Translating execution logic and commands to queries is what is done by ORM. Database used here is a SQLite database which is a relational file based database. 
 Python FastAPI is used as a middleware layer to expose API endpoints
 
-# 📝 Code Snippets Manager
+
 
 A robust backend service that allows authenticated users to save, retrieve, and manage their personal code snippets. Built with FastAPI and SQLite, this application provides a complete REST API for code snippet management with a simple web interface for demonstration.
 
