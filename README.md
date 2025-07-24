@@ -1,7 +1,7 @@
 # CodeThink41
 Repository for the Assesment code during Interview
 
-# 📝 Code Snippets Manager API
+# 📝 Code Snippets Manager
 
 A robust backend service that allows authenticated users to save, retrieve, and manage their personal code snippets. Built with FastAPI and SQLite, this application provides a complete REST API for code snippet management with a simple web interface for demonstration.
 
@@ -392,19 +392,6 @@ The project includes a comprehensive demo script that tests all API endpoints:
 - Multiple user scenarios
 
 Run the demo with: `python demo.py`
-
-## 🔮 Future Enhancements
-
-- **Authentication & Authorization**: JWT-based user authentication
-- **File Upload**: Support for snippet attachments
-- **Search Functionality**: Full-text search across snippets
-- **Tagging System**: Organize snippets with custom tags
-- **Sharing**: Share snippets with other users
-- **Version Control**: Track snippet version history
-- **API Rate Limiting**: Prevent abuse and ensure fair usage
-- **Export/Import**: Backup and restore snippet collections
-- **Syntax Highlighting**: Rich code display in web interface
-- **Docker Support**: Containerized deployment
 
 ## 📄 License
 
