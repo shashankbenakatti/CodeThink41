@@ -133,12 +133,7 @@ curl "http://localhost:8000/users/john_doe/snippets"
           │                                             │
           └──────────────────────┼──────────────────────┘
                                  │
-                          HTTP/HTTPS Requests
-                                 │
-                    ┌─────────────▼──────────────┐
-                    │       Load Balancer        │
-                    │     (Optional/Future)      │
-                    └─────────────┬──────────────┘
+                          HTTP Requests
                                  │
                     ┌─────────────▼──────────────┐
                     │      FastAPI Server        │
@@ -146,7 +141,7 @@ curl "http://localhost:8000/users/john_doe/snippets"
                     │   │   API Routes        │  │
                     │   │   - Users           │  │
                     │   │   - Snippets        │  │
-                    │   │   - Health Check    │  │
+                    │   │                     │  │
                     │   └─────────────────────┘  │
                     │   ┌─────────────────────┐  │
                     │   │  Business Logic     │  │
